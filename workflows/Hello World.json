@@ -1,1 +1,205 @@
-{"id":"d635d182-acd6-4ef6-a113-045434ee7190","revision":0,"last_node_id":2,"last_link_id":1,"nodes":[{"id":1,"type":"NotebookCell","pos":[224,284],"size":[500,300],"flags":{},"order":0,"mode":0,"inputs":[{"localized_name":"input","name":"input","shape":7,"type":"*","link":null},{"localized_name":"input_2","name":"input_2","shape":7,"type":"*","link":null},{"localized_name":"code","name":"code","type":"STRING","widget":{"name":"code"},"link":null}],"outputs":[{"localized_name":"Result","name":"Result","type":"*","links":[1]},{"localized_name":"Plot","name":"Plot","type":"IMAGE","links":null},{"localized_name":"Stdout","name":"Stdout","type":"STRING","links":null}],"properties":{"Node name for S&R":"NotebookCell"},"widgets_values":["example_string = \"Hello, world!\"\n\nResult = \"yes\"\n","​"]},{"id":2,"type":"NotebookCell","pos":[777,284],"size":[500,300],"flags":{},"order":1,"mode":0,"inputs":[{"localized_name":"input","name":"input","shape":7,"type":"*","link":1},{"localized_name":"input_2","name":"input_2","shape":7,"type":"*","link":null},{"localized_name":"code","name":"code","type":"STRING","widget":{"name":"code"},"link":null}],"outputs":[{"localized_name":"Result","name":"Result","type":"*","links":null},{"localized_name":"Plot","name":"Plot","type":"IMAGE","links":null},{"localized_name":"Stdout","name":"Stdout","type":"STRING","links":null}],"properties":{"Node name for S&R":"NotebookCell"},"widgets_values":["print(example_string)\n\nprint(input)","​Hello, world!\nyes\n"]}],"links":[[1,1,0,2,0,"*"]],"groups":[],"config":{},"extra":{"workflowRendererVersion":"LG","ds":{"scale":1,"offset":[53,-128]}},"version":0.4}
+{
+  "id": "d635d182-acd6-4ef6-a113-045434ee7190",
+  "revision": 1,
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "NotebookCell",
+      "pos": [180, 260],
+      "size": [500, 300],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "input",
+          "name": "input",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "localized_name": "input_2",
+          "name": "input_2",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "localized_name": "code",
+          "name": "code",
+          "type": "STRING",
+          "widget": {
+            "name": "code"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "Result",
+          "name": "Result",
+          "type": "*",
+          "links": [1]
+        },
+        {
+          "localized_name": "Plot",
+          "name": "Plot",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "localized_name": "Stdout",
+          "name": "Stdout",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NotebookCell"
+      },
+      "widgets_values": [
+        "message = \"Hello, World!\"\nResult = message",
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "NotebookCell",
+      "pos": [760, 260],
+      "size": [500, 300],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "input",
+          "name": "input",
+          "shape": 7,
+          "type": "*",
+          "link": 1
+        },
+        {
+          "localized_name": "input_2",
+          "name": "input_2",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "localized_name": "code",
+          "name": "code",
+          "type": "STRING",
+          "widget": {
+            "name": "code"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "Result",
+          "name": "Result",
+          "type": "*",
+          "links": [2]
+        },
+        {
+          "localized_name": "Plot",
+          "name": "Plot",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "localized_name": "Stdout",
+          "name": "Stdout",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NotebookCell"
+      },
+      "widgets_values": [
+        "decorated = f\">>> {input} <<<\"\nResult = decorated",
+        ""
+      ]
+    },
+    {
+      "id": 3,
+      "type": "NotebookCell",
+      "pos": [1340, 260],
+      "size": [500, 300],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "input",
+          "name": "input",
+          "shape": 7,
+          "type": "*",
+          "link": 2
+        },
+        {
+          "localized_name": "input_2",
+          "name": "input_2",
+          "shape": 7,
+          "type": "*",
+          "link": null
+        },
+        {
+          "localized_name": "code",
+          "name": "code",
+          "type": "STRING",
+          "widget": {
+            "name": "code"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "Result",
+          "name": "Result",
+          "type": "*",
+          "links": null
+        },
+        {
+          "localized_name": "Plot",
+          "name": "Plot",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "localized_name": "Stdout",
+          "name": "Stdout",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NotebookCell"
+      },
+      "widgets_values": [
+        "print(\"Step 1: Created a message\")\nprint(\"Step 2: Decorated the message\")\nprint(\"Final output:\")\nprint(input)\n\nResult = input",
+        "Step 1: Created a message\nStep 2: Decorated the message\nFinal output:\n>>> Hello, World! <<<\n"
+      ]
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "*"],
+    [2, 2, 0, 3, 0, "*"]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "workflowRendererVersion": "LG",
+    "ds": {
+      "scale": 1,
+      "offset": [53, -128]
+    }
+  },
+  "version": 0.4
+}
