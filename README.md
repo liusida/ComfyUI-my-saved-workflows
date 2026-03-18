@@ -1,7 +1,7 @@
 # ComfyUI-my-saved-workflows
 
-Synchronized from `ComfyUI/user/default/workflows/`.
+Synchronized from `ComfyUI/user/default/`.
 
 Accessible from Frontend GUI:
 
-![workflows](image.png)
+![workflows](assets/image.png)
